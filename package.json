@@ -2,7 +2,7 @@
   "name": "@itk/chart.js",
   "homepage": "http://www.chartjs.org",
   "description": "Simple HTML5 charts using the canvas element. Modified for itk purposes.",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "license": "MIT",
   "main": "src/chart.js",
   "repository": {
