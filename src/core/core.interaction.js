@@ -295,8 +295,10 @@ module.exports = {
 			}
 
 			if (options.single) {
-				return items.reduce((acc, value) => {
-					if (!acc.find(d => d._datasetIndex === value._datasetIndex)) {
+				return items.reduce(function(acc, value) {
+					if (!acc.find(function(d) {
+						return d._datasetIndex === value._datasetIndex;
+					})) {
 						acc.push(value);
 					}
 					return acc;

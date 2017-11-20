@@ -8,7 +8,7 @@ var insert = require('gulp-insert');
 var replace = require('gulp-replace');
 var size = require('gulp-size');
 var streamify = require('gulp-streamify');
-var uglify = require('gulp-uglifyes');
+var uglify = require('gulp-uglify');
 var util = require('gulp-util');
 var zip = require('gulp-zip');
 var exec = require('child-process-promise').exec;
@@ -17,7 +17,7 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var merge = require('merge-stream');
 var collapse = require('bundle-collapser/plugin');
-var argv  = require('yargs').argv
+var argv = require('yargs').argv;
 var path = require('path');
 var package = require('./package.json');
 
