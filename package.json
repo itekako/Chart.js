@@ -1,7 +1,7 @@
 {
-  "name": "chart.js",
+  "name": "@itk/chart.js",
   "homepage": "http://www.chartjs.org",
-  "description": "Simple HTML5 charts using the canvas element.",
+  "description": "Simple HTML5 charts using the canvas element. Modified for itk purposes.",
   "version": "2.7.1",
   "license": "MIT",
   "main": "src/chart.js",
