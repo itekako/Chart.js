@@ -17,7 +17,7 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var merge = require('merge-stream');
 var collapse = require('bundle-collapser/plugin');
-var argv  = require('yargs').argv
+var argv = require('yargs').argv;
 var path = require('path');
 var package = require('./package.json');
 

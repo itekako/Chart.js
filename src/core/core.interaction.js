@@ -293,6 +293,18 @@ module.exports = {
 			if (options.intersect && !intersectsItem) {
 				items = [];
 			}
+
+			if (options.single) {
+				return items.reduce(function(acc, value) {
+					if (!acc.find(function(d) {
+						return d._datasetIndex === value._datasetIndex;
+					})) {
+						acc.push(value);
+					}
+					return acc;
+				}, []);
+			}
+
 			return items;
 		},
 
